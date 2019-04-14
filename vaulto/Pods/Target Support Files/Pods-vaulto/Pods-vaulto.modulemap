@@ -1,0 +1,6 @@
+framework module Pods_vaulto {
+  umbrella header "Pods-vaulto-umbrella.h"
+
+  export *
+  module * { export * }
+}

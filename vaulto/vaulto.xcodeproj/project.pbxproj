@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75247EE9DC5858DB6BC663FF /* Pods_vaulto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AB3EF9CE4C5C48AF220AA9 /* Pods_vaulto.framework */; };
+		CA981395221065B20077718C /* philipu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA981394221065B20077718C /* philipu.mp3 */; };
+		CA98139722106F430077718C /* MenusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98139622106F430077718C /* MenusViewController.swift */; };
+		CA9813992210A2CE0077718C /* cardUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9813982210A2CE0077718C /* cardUploadViewController.swift */; };
+		CA98139B2210A4260077718C /* card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA98139A2210A4250077718C /* card.jpg */; };
+		CA98139D2210AFEB0077718C /* cardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98139C2210AFEB0077718C /* cardTableViewCell.swift */; };
+		DF058D3321A2D64600AF0DF9 /* ImgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF058D3221A2D64600AF0DF9 /* ImgCollectionViewCell.swift */; };
+		DF058D3521A2DAAE00AF0DF9 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF058D3421A2DAAE00AF0DF9 /* PinViewController.swift */; };
+		DF0E9BDD21A283640033DF4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0E9BDC21A283640033DF4A /* AppDelegate.swift */; };
+		DF0E9BDF21A283650033DF4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0E9BDE21A283650033DF4A /* ViewController.swift */; };
+		DF0E9BE221A283650033DF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0E9BE021A283650033DF4A /* Main.storyboard */; };
+		DF0E9BE521A283650033DF4A /* vaulto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF0E9BE321A283650033DF4A /* vaulto.xcdatamodeld */; };
+		DF0E9BE721A2836B0033DF4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0E9BE621A2836B0033DF4A /* Assets.xcassets */; };
+		DF0E9BEA21A2836B0033DF4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0E9BE821A2836B0033DF4A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1118E0D71DD19C4F833DC09C /* Pods-vaulto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vaulto.release.xcconfig"; path = "Pods/Target Support Files/Pods-vaulto/Pods-vaulto.release.xcconfig"; sourceTree = "<group>"; };
+		22AB3EF9CE4C5C48AF220AA9 /* Pods_vaulto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vaulto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09803211568AFE42C0F1D5F /* Pods-vaulto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vaulto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vaulto/Pods-vaulto.debug.xcconfig"; sourceTree = "<group>"; };
+		CA981394221065B20077718C /* philipu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = philipu.mp3; sourceTree = SOURCE_ROOT; };
+		CA98139622106F430077718C /* MenusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusViewController.swift; sourceTree = "<group>"; };
+		CA9813982210A2CE0077718C /* cardUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardUploadViewController.swift; sourceTree = "<group>"; };
+		CA98139A2210A4250077718C /* card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card.jpg; sourceTree = "<group>"; };
+		CA98139C2210AFEB0077718C /* cardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardTableViewCell.swift; sourceTree = "<group>"; };
+		DF058D3221A2D64600AF0DF9 /* ImgCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgCollectionViewCell.swift; sourceTree = "<group>"; };
+		DF058D3421A2DAAE00AF0DF9 /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
+		DF0E9BD921A283640033DF4A /* vaulto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vaulto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0E9BDC21A283640033DF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF0E9BDE21A283650033DF4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF0E9BE121A283650033DF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF0E9BE421A283650033DF4A /* vaulto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vaulto.xcdatamodel; sourceTree = "<group>"; };
+		DF0E9BE621A2836B0033DF4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF0E9BE921A2836B0033DF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF0E9BEB21A2836B0033DF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF0E9BD621A283640033DF4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75247EE9DC5858DB6BC663FF /* Pods_vaulto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0260B7625D29B7C4CD26D498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B09803211568AFE42C0F1D5F /* Pods-vaulto.debug.xcconfig */,
+				1118E0D71DD19C4F833DC09C /* Pods-vaulto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF0E9BD021A283640033DF4A = {
+			isa = PBXGroup;
+			children = (
+				DF0E9BDB21A283640033DF4A /* vaulto */,
+				DF0E9BDA21A283640033DF4A /* Products */,
+				0260B7625D29B7C4CD26D498 /* Pods */,
+				E841FC58C79A437924A02D99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF0E9BDA21A283640033DF4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF0E9BD921A283640033DF4A /* vaulto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF0E9BDB21A283640033DF4A /* vaulto */ = {
+			isa = PBXGroup;
+			children = (
+				CA98139A2210A4250077718C /* card.jpg */,
+				CA981394221065B20077718C /* philipu.mp3 */,
+				DF0E9BDC21A283640033DF4A /* AppDelegate.swift */,
+				DF0E9BDE21A283650033DF4A /* ViewController.swift */,
+				DF0E9BE021A283650033DF4A /* Main.storyboard */,
+				DF0E9BE621A2836B0033DF4A /* Assets.xcassets */,
+				DF0E9BE821A2836B0033DF4A /* LaunchScreen.storyboard */,
+				DF0E9BEB21A2836B0033DF4A /* Info.plist */,
+				DF0E9BE321A283650033DF4A /* vaulto.xcdatamodeld */,
+				DF058D3221A2D64600AF0DF9 /* ImgCollectionViewCell.swift */,
+				DF058D3421A2DAAE00AF0DF9 /* PinViewController.swift */,
+				CA98139622106F430077718C /* MenusViewController.swift */,
+				CA9813982210A2CE0077718C /* cardUploadViewController.swift */,
+				CA98139C2210AFEB0077718C /* cardTableViewCell.swift */,
+			);
+			path = vaulto;
+			sourceTree = "<group>";
+		};
+		E841FC58C79A437924A02D99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22AB3EF9CE4C5C48AF220AA9 /* Pods_vaulto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF0E9BD821A283640033DF4A /* vaulto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0E9BEE21A2836B0033DF4A /* Build configuration list for PBXNativeTarget "vaulto" */;
+			buildPhases = (
+				F5FFA9D50247E8E05AD5AF78 /* [CP] Check Pods Manifest.lock */,
+				DF0E9BD521A283640033DF4A /* Sources */,
+				DF0E9BD621A283640033DF4A /* Frameworks */,
+				DF0E9BD721A283640033DF4A /* Resources */,
+				83EE4A104F24BED4F829AE9E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vaulto;
+			productName = vaulto;
+			productReference = DF0E9BD921A283640033DF4A /* vaulto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF0E9BD121A283640033DF4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = strlab;
+				TargetAttributes = {
+					DF0E9BD821A283640033DF4A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = DF0E9BD421A283640033DF4A /* Build configuration list for PBXProject "vaulto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF0E9BD021A283640033DF4A;
+			productRefGroup = DF0E9BDA21A283640033DF4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF0E9BD821A283640033DF4A /* vaulto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF0E9BD721A283640033DF4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA981395221065B20077718C /* philipu.mp3 in Resources */,
+				DF0E9BEA21A2836B0033DF4A /* LaunchScreen.storyboard in Resources */,
+				DF0E9BE721A2836B0033DF4A /* Assets.xcassets in Resources */,
+				DF0E9BE221A283650033DF4A /* Main.storyboard in Resources */,
+				CA98139B2210A4260077718C /* card.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83EE4A104F24BED4F829AE9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-vaulto/Pods-vaulto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vaulto/Pods-vaulto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5FFA9D50247E8E05AD5AF78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vaulto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF0E9BD521A283640033DF4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0E9BDF21A283650033DF4A /* ViewController.swift in Sources */,
+				DF0E9BDD21A283640033DF4A /* AppDelegate.swift in Sources */,
+				DF058D3321A2D64600AF0DF9 /* ImgCollectionViewCell.swift in Sources */,
+				DF058D3521A2DAAE00AF0DF9 /* PinViewController.swift in Sources */,
+				CA9813992210A2CE0077718C /* cardUploadViewController.swift in Sources */,
+				DF0E9BE521A283650033DF4A /* vaulto.xcdatamodeld in Sources */,
+				CA98139722106F430077718C /* MenusViewController.swift in Sources */,
+				CA98139D2210AFEB0077718C /* cardTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF0E9BE021A283650033DF4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0E9BE121A283650033DF4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF0E9BE821A2836B0033DF4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0E9BE921A2836B0033DF4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF0E9BEC21A2836B0033DF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF0E9BED21A2836B0033DF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF0E9BEF21A2836B0033DF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09803211568AFE42C0F1D5F /* Pods-vaulto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2NB997JDV;
+				INFOPLIST_FILE = vaulto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.strlab.vaulto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF0E9BF021A2836B0033DF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1118E0D71DD19C4F833DC09C /* Pods-vaulto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2NB997JDV;
+				INFOPLIST_FILE = vaulto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.strlab.vaulto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF0E9BD421A283640033DF4A /* Build configuration list for PBXProject "vaulto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0E9BEC21A2836B0033DF4A /* Debug */,
+				DF0E9BED21A2836B0033DF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0E9BEE21A2836B0033DF4A /* Build configuration list for PBXNativeTarget "vaulto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0E9BEF21A2836B0033DF4A /* Debug */,
+				DF0E9BF021A2836B0033DF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF0E9BE321A283650033DF4A /* vaulto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF0E9BE421A283650033DF4A /* vaulto.xcdatamodel */,
+			);
+			currentVersion = DF0E9BE421A283650033DF4A /* vaulto.xcdatamodel */;
+			path = vaulto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF0E9BD121A283640033DF4A /* Project object */;
+}
